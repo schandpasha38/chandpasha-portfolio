@@ -20,6 +20,17 @@
   text-transform: uppercase !important;
 }
 
+.homeBanner-container .homeBanner-left-img {
+  margin: 0 auto;
+  width: 49%;
+  text-align: right;
+  border-radius: 50%;
+}
+
+.homeBanner-container .homeBanner-left-img img {
+  border-radius: 50%;
+}
+
 .homeBanner-container .homeBanner-left-text h3 {
   font-size: 16px;
   font-weight: 400;
@@ -68,10 +79,3 @@
     background-position: right center;
     color: #fff;
   }
-
-.homeBanner-container .homeBanner-left-img {
-  margin: 0 auto;
-  width: 49%;
-  align-self: flex-end !important;
-  text-align: right;
-}
