@@ -16,8 +16,9 @@
   margin: 0 auto;
   width: 49%;
   font-size: 120%;
-  text-transform: uppercase !important;
+  text-transform: uppercase;
   margin-left: 30px;
+  animation: drop 1.5s;
 }
 
 .homeBanner-container .homeBanner-left-img {
@@ -30,6 +31,7 @@
 
 .homeBanner-container .homeBanner-left-img img {
   border-radius: 50%;
+  animation: drop 1.5s;
 }
 
 .homeBanner-container .homeBanner-left-text h3 {
@@ -74,9 +76,21 @@
   background-size: 200% auto;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  margin-right: 10px;
 }
 
 .primary_btn:hover {
-    background-position: right center;
-    color: #fff;
+  background-position: right center;
+  color: #fff;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0.5;
+    transform: translateY(-80px);
   }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
