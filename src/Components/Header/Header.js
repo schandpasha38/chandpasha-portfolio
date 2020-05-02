@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.scss'
 import ChandPic from './assets/ChandPic.jpg'
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -14,10 +15,10 @@ function Header() {
                 <div className="header-nav">
                     <nav>
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/">Portfolio</a></li>
-                            <li><a href="/">Contact</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/portfolio">Portfolio</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </nav>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.scss';
+import Header from '../Header/Header'
 import gitIcon from './assets/svgicons/github.svg'
 import linkedInIcon from './assets/svgicons/linkedin.svg'
 import twitterIcon from './assets/svgicons/twitter.svg'
@@ -7,6 +8,8 @@ import eMialIcon from './assets/svgicons/email.svg'
 
 function About() {
     return (
+        <>
+        <Header />
         <section className="about-section">
             <div className="about-section-container">
                 <div className="about-headline">
@@ -26,6 +29,7 @@ function About() {
                 </section>
             </div>
         </section>
+        </>
     );
 };
 
