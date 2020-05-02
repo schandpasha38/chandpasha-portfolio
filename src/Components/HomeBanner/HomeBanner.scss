@@ -1,5 +1,9 @@
 .homeBanner-section {
   width: 100%;
+  background-image: url(./assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .homeBanner-container {
@@ -9,16 +13,7 @@
   align-items: center;
   justify-content: space-between;
   vertical-align: middle;
-  min-height: 86vh;
-}
-
-.homeBanner-container .homeBanner-left-text {
-  margin: 0 auto;
-  width: 49%;
-  font-size: 120%;
-  text-transform: uppercase;
-  margin-left: 30px;
-  animation: drop 1.5s;
+  min-height: 87vh;
 }
 
 .homeBanner-container .homeBanner-left-img {
@@ -31,6 +26,16 @@
 
 .homeBanner-container .homeBanner-left-img img {
   border-radius: 50%;
+  animation: drop 1.5s;
+}
+
+
+
+.homeBanner-container .homeBanner-left-text {
+  margin: 0 auto;
+  width: 49%;
+  text-transform: uppercase;
+  margin-left: 30px;
   animation: drop 1.5s;
 }
 

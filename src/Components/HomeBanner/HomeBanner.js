@@ -8,7 +8,7 @@ function HomeBanner() {
             <div className="homeBanner-container">
                 <div className="homeBanner-left-text">
                     <h3>HEY THERE !</h3>
-                    <h1>Hi, I'm {`<Chand Pasha />`}</h1>
+                    <h1>Hi, I'm <br/> {`<Chand Pasha />`}</h1>
                     <h5>Front-End Developer in Bangalore</h5>
                     <a className="primary_btn" href="/portfolio"><span>View My Resume</span></a>
                 </div>

@@ -1,38 +1,120 @@
 .about-section {
-    width: 100%;
+  width: 100%;
 }
 
-.about-section-container {
-    margin: auto;
-    width: 80%;
+.about-section .about-wrapper {
+  width: 80%;
+  margin: auto;
 }
 
 .about-headline {
-    text-align: center;
+  text-align: center;
+  font-size: 200%;
+  margin: 20px;
 }
 
+.about-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 50px auto;
+  align-items: center;
+  width: 100%;
+  animation: dropfromtop 1.5s;
+}
+
+.about-text-container {
+  margin: 10px 10px 10px 30px;
+  flex: 1;
+  align-items: center;
+  text-align: justify;
+}
+
+.about-text-container .about-text p {
+  margin-bottom: 20px;
+}
+
+.about-pic-container {
+  flex: 1;
+  text-align: center;
+  margin: 10px 30px 10px 10px;
+}
+
+.about-pic-container img {
+    width: 250px;
+  }
+
 .about-social {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-social li {
-    list-style: none;
-    margin-bottom: 10px;
+  list-style: none;
+  margin-bottom: 10px;
 }
 
-.about-social li a{
-    display: block;
-    padding: 5px;
-    border-radius: 50%;
-    margin-right: 5px;
+.about-social li a {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
+  transition: 0.2s ease-in;
 }
 
-.about-social li a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+.about-social li a:hover {
+  transform: scale(1.1);
 }
 
-.about-social li .socialIcons{
-    width: 30px;
-    vertical-align: middle;
+.about-social li .socialIcons {
+  width: 30px;
+  vertical-align: middle;
 }
+
+.about-section-toolsused {
+  margin: 20px auto;
+  animation: dropfrombottom 1.5s;
+}
+
+.about-section-toolsused ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 30px 0 30px;
+}
+
+.about-section-toolsused ul li {
+  list-style: none;
+  margin: 0 50px 0 0;
+}
+
+.about-section-toolsused ul li img {
+  width: 80px;
+}
+
+
+
+@keyframes dropfromtop {
+  0% {
+    opacity: 0.5;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes dropfrombottom {
+    0% {
+      transform: translateY(80px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+

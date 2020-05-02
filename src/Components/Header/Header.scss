@@ -1,6 +1,5 @@
 header {
     width: 100%;
-    background-color: #fff;
     transition: all .5s;
     box-shadow: -21.213px 21.213px 30px 0 rgba(158,158,158,.2);
 }
@@ -48,6 +47,11 @@ header .header-container {
     border-bottom: 2px solid transparent;
     transition: all .5s;
     outline: 0;
+}
+
+.header-nav nav ul li .active{
+    color: blue;
+    border-bottom: 2px solid blue;
 }
 
 .header-nav nav ul li a:hover{

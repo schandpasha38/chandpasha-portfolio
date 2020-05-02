@@ -1,16 +1,23 @@
 import React from 'react';
 import './NotFound.scss';
+import { Helmet } from 'react-helmet';
 import Header from '../Header/Header';
 import { Link } from 'react-router-dom';
 
 function NotFound() {
     return (
         <>
-        <Header />
-        <section className="notfound-section">
-            <h1>This page was Notfound</h1>
-            <Link to="/">Go Home</Link>
-        </section>
+            <Helmet>
+                <title>404 Error</title>
+            </Helmet>
+            <Header />
+            <section className="notfound-section">
+                <div className="notfound-container">
+                    <h1>OOPS!</h1>
+                    <h3>LOOKS LIKE YOU GOT LOST</h3>
+                    <p>The page you are looking for not found. Go Home by <Link to="/">Clicking Here</Link></p>
+                </div>
+            </section>
         </>
     );
 };
