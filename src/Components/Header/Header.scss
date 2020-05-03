@@ -1,71 +1,76 @@
 header {
-    width: 100%;
-    transition: all .5s;
-    box-shadow: -21.213px 21.213px 30px 0 rgba(158,158,158,.2);
+  width: 100%;
+  transition: all 0.5s;
 }
 
 header .header-container {
-    margin: auto;
-    width: 80%;
-    min-height: 13vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    vertical-align: middle;
+  margin: auto;
+  width: 80%;
+  min-height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
 }
 
 .header-logo {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-.header-logo .header-logo-pic{
-    display: block;
-    border-radius: 50%;
+.header-logo .header-logo-pic {
+  display: block;
+  border-radius: 50%;
 }
 
-.header-nav{
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
-    margin-right: 30px;
+.header-nav {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 30px;
 }
 
-.header-nav nav ul{
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
+.header-nav nav ul {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
 }
 
-.header-nav nav ul li{
-    list-style: none;
-    margin-left: 10px;
+.header-nav nav ul li {
+  list-style: none;
+  margin-left: 10px;
 }
 
-.header-nav nav ul li a{
-    text-decoration: none;
-    padding: 10px;
-    border-bottom: 2px solid transparent;
-    transition: all .5s;
-    outline: 0;
+.header-nav nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s;
+  outline: 0;
 }
 
-.header-nav nav ul li .active{
-    color: blue;
-    border-bottom: 2px solid blue;
+.header-nav nav ul li .active {
+  color: blue;
+  border-bottom: 2px solid blue;
 }
 
-.header-nav nav ul li a:hover{
-    text-decoration: none;
-    padding: 10px;
-    outline: 0;
-    color: blue;
-    border-bottom: 2px solid blue;
+.header-nav nav ul li a:hover {
+  text-decoration: none;
+  padding: 10px;
+  outline: 0;
+  color: blue;
+  border-bottom: 2px solid blue;
 }
 
-.header-nav nav ul li a:focus{
-    text-decoration: none;
-    padding: 10px;
-    outline: 0;
-    color: blue;
-    border-bottom: 2px solid blue;
+.header-nav nav ul li a:focus {
+  text-decoration: none;
+  padding: 10px;
+  outline: 0;
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+@media only screen and (max-width: 575.98px) {
+}
+
+@media only screen and (max-width: 991.98px) {
 }
