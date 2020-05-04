@@ -1,6 +1,6 @@
 .homeBanner-section {
   width: 100%;
-  background-image: url(./assets/bg.png);
+  background-image: url(./assets/bg.png);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@
 
 .homeBanner-container .homeBanner-left-text h1 {
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 500;
   line-height: 60px;
   margin-bottom: 20px;
@@ -62,18 +62,19 @@
   margin-bottom: 0;
 }
 
-.primary_btn {
+#primary_btn span {
+  color: #fff !important;
+}
+
+#primary_btn {
   display: inline-block;
   background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
-  color: #fff;
   letter-spacing: 0;
   margin-top: 20px;
-  font-family: roboto, sans-serif;
   font-weight: 500;
-  font-size: 14px;
   line-height: 50px;
   padding: 0 38px;
-  outline: none !important;
+  outline: none;
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
@@ -84,9 +85,9 @@
   margin-right: 10px;
 }
 
-.primary_btn:hover {
+#primary_btn:hover {
   background-position: right center;
-  color: #fff;
+  color: #fff !important;
 }
 
 @keyframes drop {
@@ -101,7 +102,22 @@
 }
 
 @media only screen and (max-width: 575.98px) {
+  .homeBanner-section {
+    padding-top: 60px;
+    height: 100vh;
+  }
+  .homeBanner-container {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 991.98px) {
+  .homeBanner-container .homeBanner-left-text h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .homeBanner-container .homeBanner-left-text h5 {
+    font-size: 16px;
+  }
 }

@@ -1,26 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.scss'
 import ChandPic from './assets/ChandPic.jpg'
 import { NavLink } from 'react-router-dom';
 
 function Header() {
+    const [toggleClass, setToggleClass] = useState('');
+
+    const toggleMenu = () => {
+        if (toggleClass === '') {
+            setToggleClass(' open')
+        } else {
+            setToggleClass('')
+        }
+    }
     return (
         <header>
             <div className="header-container">
-                <div className="header-logo">
-                    <a href="/">
-                        <img className="header-logo-pic" src={ChandPic} alt="Chand Profile" />
-                    </a>
+                <div onClick={toggleMenu} className="hamburger">
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
                 </div>
-                <div className="header-nav">
-                    <nav>
-                        <ul>
-                            <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
-                            <li><NavLink exact to="/about">About</NavLink></li>
-                            <li><NavLink exact to="/portfolio">Portfolio</NavLink></li>
-                            <li><NavLink exact to="/contact">Contact</NavLink></li>
-                        </ul>
-                    </nav>
+                <div className={`header-inner-container${toggleClass}`}>
+                    <div className="header-logo">
+                        <a href="/">
+                            <img className="header-logo-pic" src={ChandPic} alt="Chand Profile" />
+                        </a>
+                    </div>
+                    <div className="header-nav">
+                        <nav>
+                            <ul>
+                                <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+                                <li><NavLink exact to="/about">About</NavLink></li>
+                                <li><NavLink exact to="/portfolio">Portfolio</NavLink></li>
+                                <li><NavLink exact to="/contact">Contact</NavLink></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </header>

@@ -3,7 +3,7 @@ header {
   transition: all 0.5s;
 }
 
-header .header-container {
+header .header-container .header-inner-container {
   margin: auto;
   width: 80%;
   min-height: 13vh;
@@ -11,6 +11,7 @@ header .header-container {
   align-items: center;
   justify-content: space-between;
   vertical-align: middle;
+  transition: all 0.2s ease-in-out;
 }
 
 .header-logo {
@@ -70,6 +71,75 @@ header .header-container {
 }
 
 @media only screen and (max-width: 575.98px) {
+  .header-inner-container {
+    min-width: 100%;
+    min-height: 50vh;
+    position: fixed;
+    flex-direction: column;
+    background: #fff;
+    top: -500px;
+    z-index: 9;
+  }
+  .open {
+    top: 0;
+  }
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+  }
+  header .header-container {
+    position: relative;
+  }
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(5%, 50%);
+    z-index: 10;
+  }
+  .header-logo {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 0;
+    height: 13vh;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 0;
+    height: 50vh;
+  }
+  .header-nav nav {
+    height: 100%;
+  }
+  .header-nav nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .header-nav nav ul li a {
+    color: #000;
+    border-bottom: 2px solid transparent;
+  }
+  .header-nav nav ul li a:hover {
+    text-decoration: none;
+    padding: 10px;
+    outline: 0;
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
+  .header-nav nav ul li .active {
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
 }
 
 @media only screen and (max-width: 991.98px) {

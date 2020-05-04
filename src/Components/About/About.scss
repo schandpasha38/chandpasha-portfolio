@@ -118,15 +118,31 @@
   text-align: center;
 }
 
-.about-text-container .about-text-social .download-cv {
-  margin-right: 23px;
-  padding: 10px 35px;
-  border-radius: 30px;
-  background-color: #009e66 !important;
-  border: 1px solid #009e66 !important;
+
+
+
+.about-text-container .about-text-social .download-cv {    
+  display: inline-block;
+  background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
   color: #fff;
-  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 50px;
+  padding: 0 35px;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-size: 200% auto;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-right: 23px;
+  font-size: 14px;
+}
+
+.about-text-container .about-text-social .download-cv:hover {
+  background-position: right center;
+  color: #fff;
 }
 
 .about-text-container .about-text-social .about-social {
@@ -227,6 +243,12 @@
 
 
 
+@media only screen and (max-width: 575.98px) {
+  
+}
+
+@media only screen and (max-width: 991.98px) {
+}
 
 
 
@@ -244,6 +266,10 @@
 
 
 @media only screen and (max-width: 575.98px) {
+  .about-section {
+    min-height: 100vh;
+    padding-top: 60px;
+  }
 }
 
 @media only screen and (max-width: 991.98px) {
