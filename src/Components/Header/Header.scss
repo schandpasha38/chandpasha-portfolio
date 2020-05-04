@@ -11,7 +11,7 @@ header .header-container .header-inner-container {
   align-items: center;
   justify-content: space-between;
   vertical-align: middle;
-  transition: all 0.3s ease-in;
+  // transition: all 400ms ease-in;
 }
 .logo {
   display: none;
@@ -97,15 +97,11 @@ header .header-container .header-inner-container {
     background: #fff;
     top: -700px;
     z-index: 9;
+    transition: all 500ms ease;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,.1);
   }
   .open {
     top: 0;
-  }
-  .line {
-    width: 30px;
-    height: 3px;
-    background-color: black;
-    margin: 5px;
   }
   header .header-container {
     position: relative;
@@ -117,6 +113,26 @@ header .header-container .header-inner-container {
     top: 50%;
     transform: translate(5%, 50%);
     z-index: 10;
+  }
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    transition: all 400ms linear;
+    margin: 5px;
+  }
+  .hamburger[aria-expanded="true"] .line:first-child {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 8px;
+  }
+  .hamburger[aria-expanded="true"] .line:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger[aria-expanded="true"] .line:last-child {
+    transform: rotate(45deg);
+    bottom: 8px;
+    position: relative;
   }
   .header-logo {
     display: flex;

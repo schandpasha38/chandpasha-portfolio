@@ -55,11 +55,19 @@
   margin-bottom: 20px;
 }
 
+#title-for-mob {
+  display: none;
+}
+
 .homeBanner-container .homeBanner-left-text h5 {
   font-size: 24px;
   min-width: 120%;
   font-weight: 300;
   margin-bottom: 0;
+}
+
+#typing-for-mob {
+  display: none;
 }
 
 #primary_btn span {
@@ -123,27 +131,40 @@
     justify-content: center;
   }
   .homeBanner-container .homeBanner-left-text {
-    margin: 40px;
+    margin: 0 auto;
     width: 100%;
     text-align: center;
   }
   .homeBanner-container .homeBanner-left-img {
     margin: 10px;
-    animation: drop 1.5s; 
+    animation: drop 1.5s;
     border: 5px solid rgba(0, 0, 0, 0.5);
   }
   .homeBanner-container .homeBanner-left-text h3 {
     font-size: 14px;
     margin: 0;
+    display: none;
   }
   .homeBanner-container .homeBanner-left-text h1 {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
+    display: none;
   }
   .homeBanner-container .homeBanner-left-text h5 {
     font-size: 16px;
     height: 50px;
+    display: none;
+  }
+
+  #title-for-mob {
+    display: block;
+    font-weight: 500;
+  }
+
+  #typing-for-mob {
+    display: block;
+    font-weight: 500;
   }
   #primary_btn {
     margin-top: 0;

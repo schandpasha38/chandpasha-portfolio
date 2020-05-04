@@ -5,12 +5,15 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
     const [toggleClass, setToggleClass] = useState('');
+    const [ariaexpanded, setariaexpanded] = useState(false);
 
     const toggleMenu = () => {
-        if (toggleClass === '') {
+        if (toggleClass === '' && ariaexpanded === false) {
             setToggleClass(' open')
+            setariaexpanded(true)
         } else {
             setToggleClass('')
+            setariaexpanded(false)
         }
     }
     return (
@@ -19,7 +22,7 @@ function Header() {
                 <a className="logo" href="/">
                     <img src={ChandPic} alt="Chand Profile" />
                 </a>
-                <div onClick={toggleMenu} className="hamburger">
+                <div onClick={toggleMenu} className="hamburger" aria-expanded={ariaexpanded}>
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
