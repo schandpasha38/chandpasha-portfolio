@@ -11,7 +11,7 @@ function Portfolio() {
                 <meta name="description" content="Web site created using create-react-app" />
             </Helmet>
             <Header />
-            <section className="Portfolio-section">
+            <section className="portfolio-section">
                 <h1>This is Portfolio</h1>
             </section>
         </>

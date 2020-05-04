@@ -16,6 +16,9 @@ function Header() {
     return (
         <header>
             <div className="header-container">
+                <a className="logo" href="/">
+                    <img src={ChandPic} alt="Chand Profile" />
+                </a>
                 <div onClick={toggleMenu} className="hamburger">
                     <div className="line"></div>
                     <div className="line"></div>

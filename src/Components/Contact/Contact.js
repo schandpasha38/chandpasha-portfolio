@@ -11,7 +11,7 @@ function Contact() {
                 <meta name="description" content="Web site created using create-react-app" />
             </Helmet>
             <Header />
-            <section className="Contact-section">
+            <section className="contact-section">
                 <h1>This is Contact</h1>
             </section>
         </>
