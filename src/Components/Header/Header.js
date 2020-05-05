@@ -20,7 +20,7 @@ function Header() {
         <header>
             <div className="header-container">
                 <a className="logo" href="/">
-                    <img src={ChandPic} alt="Chand Profile" />
+                    Chand Pasha
                 </a>
                 <div onClick={toggleMenu} className="hamburger" aria-expanded={ariaexpanded}>
                     <div className="line"></div>

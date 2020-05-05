@@ -83,11 +83,17 @@ header .header-container .header-inner-container {
     cursor: pointer;
     left: 5%;
     top: 50%;
-    transform: translate(0%, 15%);
+    transform: translate(0%, 50%);
     z-index: 10;
+    font-size: 14px;
+    padding: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
   }
-  .logo img {
-    border-radius: 50%;
+  .logo:hover {
+    background-position: right center;
   }
   .header-inner-container {
     min-width: 100%;
