@@ -2,6 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './HomeBanner.scss';
 import HeroChandPic from './assets/HeroChandPic.png';
+import SocialButtons from '../SocialButtons/SocialButtons';
 
 function HomeBanner() {
     return (
@@ -18,7 +19,7 @@ function HomeBanner() {
                             loop: true,
                         }}
                     /></h5>
-                    <h5 id="typing-for-mob"><Typewriter 
+                    <h5 id="typing-for-mob"><Typewriter
                         options={{
                             strings: ['I\'m Front End Developer', 'I\'m Freelance Developer'],
                             autoStart: true,
@@ -30,6 +31,9 @@ function HomeBanner() {
                 <div className="homeBanner-left-img">
                     <img src={HeroChandPic} alt="" />
                 </div>
+            </div>
+            <div className="homebanner-social">
+                <SocialButtons />
             </div>
         </section>
     );
