@@ -5,7 +5,8 @@ import AboutChandPic from './assets/AboutChandPic.jpg'
 import { Helmet } from "react-helmet";
 import { HTML, CSS, SASS, BOOTSTRAP, JAVASCRIPT, JQUERY, REACT, NODEJS, GIT } from './assets/UITools/index'
 import SocialButtons from '../SocialButtons/SocialButtons';
-import Workexperiance from './experiance'
+import Workexperiance from './Experiance'
+import Education from './Education'
 
 
 function About() {
@@ -83,13 +84,25 @@ function About() {
 
                     <div className="about-experience">
                         <div className="about-headline">
-                            <p className="about-discription">languages and tools i know and use</p>
                             <h2 className="about-title"><span className="underscore">Ex</span>perience</h2>
                         </div>
                         <div className="about-section-container">
                             <div className="job-container">
                                 <div className="job-inner">
                                     <Workexperiance />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="about-education">
+                        <div className="about-headline">
+                            <h2 className="about-title"><span className="underscore">Ed</span>ucation</h2>
+                        </div>
+                        <div className="about-section-container">
+                            <div className="education-container">
+                                <div className="education-inner">
+                                    <Education />
                                 </div>
                             </div>
                         </div>

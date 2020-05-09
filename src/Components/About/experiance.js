@@ -11,7 +11,7 @@ const Workexperiance = () => {
             kra: [
                 "Helped In Creating Custom Javascript For Converting Json Data Into Required Format Like Html, Ms Excel Etc.",
                 "Helped in Creating Custom JavaScript to Track Search Results of the Competitor Site like Myntra.",
-                "Built a Google Chrome Extension Which Generates Image Information Like Image Actual & Used Dimension, Size, Banner Name, Image Name, Alt details.",
+                "Built a Google Chrome Extension Which Generates Image Information like Image Actual & Used Dimension, Size, Banner Name, Image Name, Alt details.",
                 "Creating And Presenting Daily, Weekly, Monthly, And Quarterly Reports Relating To Conversion Rate & Event Tracking From Google Analytics 360 To Product Management Manager.",
                 "Produce Daily, Weekly, Monthly, And Quarterly Reports Relating To Google App Rating On Google Play Store To Product Management Manager."
             ]

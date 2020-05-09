@@ -249,6 +249,24 @@
   padding-bottom: 5px;
 }
 
+.education-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.education {
+  font-size: 14px;
+  width: 45%;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fafafa;
+}
+
 @keyframes dropfromtop {
   0% {
     opacity: 0.5;
@@ -315,6 +333,12 @@
     width: 100%;
     background-color: #fafafa;
   }
+  .about-education {
+    margin: 80px auto;
+  }
+  .education {
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 768.98px) {
@@ -362,5 +386,11 @@
     width: auto;
     margin: 10px;
     background-color: #fafafa;
+  }
+  .education-inner {
+    flex-direction: column;
+  }
+  .education {
+    width: auto;
   }
 }
