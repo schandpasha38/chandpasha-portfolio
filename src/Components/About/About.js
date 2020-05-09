@@ -5,6 +5,7 @@ import AboutChandPic from './assets/AboutChandPic.jpg'
 import { Helmet } from "react-helmet";
 import { HTML, CSS, SASS, BOOTSTRAP, JAVASCRIPT, JQUERY, REACT, NODEJS, GIT } from './assets/UITools/index'
 import SocialButtons from '../SocialButtons/SocialButtons';
+import Workexperiance from './experiance'
 
 
 function About() {
@@ -23,7 +24,7 @@ function About() {
                     <div className="about-aboutme">
                         <div className="about-headline">
                             <p className="about-discription">Get to know me</p>
-                            <h2 className="about-title">About Me</h2>
+                            <h2 className="about-title"><span className="underscore">Ab</span>out Me</h2>
                         </div>
 
                         <div className="about-section-container">
@@ -62,7 +63,7 @@ function About() {
                     <div className="about-skills">
                         <div className="about-headline">
                             <p className="about-discription">languages and tools i know and use</p>
-                            <h2 className="about-title">Skills</h2>
+                            <h2 className="about-title"><span className="underscore">Sk</span>ills</h2>
                         </div>
                         <div className="about-section-container">
                             <ul>
@@ -83,17 +84,13 @@ function About() {
                     <div className="about-experience">
                         <div className="about-headline">
                             <p className="about-discription">languages and tools i know and use</p>
-                            <h2 className="about-title">Experience</h2>
+                            <h2 className="about-title"><span className="underscore">Ex</span>perience</h2>
                         </div>
                         <div className="about-section-container">
                             <div className="job-container">
                                 <div className="job-inner">
-                                    <h3>Ajio.com</h3>
-                                    <p>Scenior MIS Exicutive (Dec - 2016 to Nov - 2019)</p>
-                                    <ul></ul>
+                                    <Workexperiance />
                                 </div>
-                                <div className="job-inner"></div>
-                                <div className="job-inner"></div>
                             </div>
                         </div>
                     </div>

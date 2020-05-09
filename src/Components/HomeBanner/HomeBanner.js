@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import './HomeBanner.scss';
 import HeroChandPic from './assets/HeroChandPic.png';
 import SocialButtons from '../SocialButtons/SocialButtons';
+import { Link } from 'react-router-dom'
 
 function HomeBanner() {
     return (
@@ -26,7 +27,7 @@ function HomeBanner() {
                             loop: true,
                         }}
                     /></h5>
-                    <a id="primary_btn" href="/portfolio"><span>View My Resume</span></a>
+                    <Link id="primary_btn" to="/about"><span>View My Resume</span></Link>
                 </div>
                 <div className="homeBanner-left-img">
                     <img src={HeroChandPic} alt="" />

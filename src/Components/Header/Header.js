@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.scss'
 import ChandPic from './assets/ChandPic.jpg'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
     const [toggleClass, setToggleClass] = useState('');
@@ -19,9 +19,7 @@ function Header() {
     return (
         <header>
             <div className="header-container">
-                <a className="logo" href="/">
-                    Chand Pasha
-                </a>
+                <Link className="logo" to="/">Chand Pasha</Link>
                 <div onClick={toggleMenu} className="hamburger" aria-expanded={ariaexpanded}>
                     <div className="line"></div>
                     <div className="line"></div>
