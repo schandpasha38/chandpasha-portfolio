@@ -1,7 +1,8 @@
 import React from 'react';
 import './Portfolio.scss';
-import Header from '../Header/Header'
+import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
+import PortfolioItems from './PortfolioItems';
 
 function Portfolio() {
     return (
@@ -12,7 +13,19 @@ function Portfolio() {
             </Helmet>
             <Header />
             <section className="portfolio-section">
-                <h1>This is Portfolio</h1>
+                <div className="portfolio-wrapper">
+
+
+                    <div className="portfolio-title-wrap">
+                        <p className="discription">Below is some of the work i have done</p>
+                        <h2 className="portfolio-head-title"><span className="underscore">Po</span>rtfolio</h2>
+                    </div>
+
+
+                    <PortfolioItems />
+
+                    
+                </div>
             </section>
         </>
     );

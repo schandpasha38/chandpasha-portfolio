@@ -29,14 +29,12 @@
   max-width: 100%;
   height: auto;
   border-radius: 50%;
-  animation: drop 1.5s;
 }
 
 .homeBanner-container .homeBanner-left-text {
   margin: 0 auto;
   width: 49%;
   text-transform: uppercase;
-  animation: drop 1.5s;
 }
 
 .homeBanner-container .homeBanner-left-text h3 {
@@ -119,15 +117,6 @@
   width: 30px;
 }
 
-@keyframes drop {
-  0% {
-    transform: translateY(-80px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
 @media only screen and (max-width: 991.98px) {
   .homeBanner-container .homeBanner-left-text h1 {
     font-size: 22px;
@@ -156,7 +145,6 @@
   }
   .homeBanner-container .homeBanner-left-img {
     margin: 10px;
-    animation: drop 1.5s;
     border: 5px solid rgba(0, 0, 0, 0.5);
   }
   .homeBanner-container .homeBanner-left-text h3 {

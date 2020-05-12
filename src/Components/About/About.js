@@ -3,11 +3,11 @@ import './About.scss';
 import Header from '../Header/Header';
 import AboutChandPic from './assets/AboutChandPic.jpg'
 import { Helmet } from "react-helmet";
-import { HTML, CSS, SASS, BOOTSTRAP, JAVASCRIPT, JQUERY, REACT, NODEJS, GIT } from './assets/UITools/index'
+import * as UiTools from './assets/UITools/index'
 import SocialButtons from '../SocialButtons/SocialButtons';
 import Workexperiance from './Experiance'
 import Education from './Education'
-
+// { HTML, CSS, SASS, BOOTSTRAP, JAVASCRIPT, JQUERY, REACT, NODEJS, GIT }
 
 function About() {
     return (
@@ -19,7 +19,6 @@ function About() {
             <Header />
             <section className="about-section">
                 <div className="about-wrapper">
-
 
 
                     <div className="about-aboutme">
@@ -68,15 +67,15 @@ function About() {
                         </div>
                         <div className="about-section-container">
                             <ul>
-                                <li><img src={HTML} alt="html logo" /></li>
-                                <li><img src={CSS} alt="css  logo" /></li>
-                                <li><img src={JAVASCRIPT} alt="javascript logo" /></li>
-                                <li><img src={REACT} alt="react logo" /></li>
-                                <li><img src={NODEJS} alt="nodejs logo" /></li>
-                                <li><img src={JQUERY} alt="jquery logo" /></li>
-                                <li><img src={SASS} alt="sass logo" /></li>
-                                <li><img src={BOOTSTRAP} alt="bootstrap logo" /></li>
-                                <li><img src={GIT} alt="git logo" /></li>
+                                <li><img src={UiTools.HTML} alt="html logo" /></li>
+                                <li><img src={UiTools.CSS} alt="css  logo" /></li>
+                                <li><img src={UiTools.JAVASCRIPT} alt="javascript logo" /></li>
+                                <li><img src={UiTools.REACT} alt="react logo" /></li>
+                                <li><img src={UiTools.NODEJS} alt="nodejs logo" /></li>
+                                <li><img src={UiTools.JQUERY} alt="jquery logo" /></li>
+                                <li><img src={UiTools.SASS} alt="sass logo" /></li>
+                                <li><img src={UiTools.BOOTSTRAP} alt="bootstrap logo" /></li>
+                                <li><img src={UiTools.GIT} alt="git logo" /></li>
                             </ul>
                         </div>
                     </div>
@@ -94,6 +93,7 @@ function About() {
                             </div>
                         </div>
                     </div>
+                    
 
                     <div className="about-education">
                         <div className="about-headline">
