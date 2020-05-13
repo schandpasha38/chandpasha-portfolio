@@ -1,13 +1,13 @@
 import React from 'react';
 import './About.scss';
 import Header from '../Header/Header';
-import AboutChandPic from './assets/AboutChandPic.jpg'
+import AboutChandPic from './assets/AboutChandPic.jpg';
 import { Helmet } from "react-helmet";
-import * as UiTools from './assets/UITools/index'
+import * as UiTools from './assets/UITools/index';
 import SocialButtons from '../SocialButtons/SocialButtons';
-import Workexperiance from './Experiance'
-import Education from './Education'
-// { HTML, CSS, SASS, BOOTSTRAP, JAVASCRIPT, JQUERY, REACT, NODEJS, GIT }
+import Workexperiance from './Experiance';
+import Education from './Education';
+import ChandResume from './assets/Resume/Chand Pasha.pdf'
 
 function About() {
     return (
@@ -50,7 +50,7 @@ function About() {
                                     </div>
                                 </div>
                                 <div className="about-text-social">
-                                    <a className="download-cv" href="/">Download CV</a>
+                                    <a className="download-cv" href={ChandResume} target="_blank" rel="noopener noreferrer">Download CV</a>
                                     <div className="about-social">
                                         <SocialButtons />
                                     </div>

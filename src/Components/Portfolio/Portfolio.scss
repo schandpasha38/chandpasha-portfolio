@@ -40,7 +40,6 @@
 
 .portfolio-imageContainer {
   flex: 0 0 49%;
-  cursor: pointer;
 }
 
 .portfolio-imageContainer img {
@@ -89,7 +88,7 @@
 
 @media only screen and (max-width: 768.98px) {
   .portfolio-section {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   .portfolioItem {
     flex-direction: column;

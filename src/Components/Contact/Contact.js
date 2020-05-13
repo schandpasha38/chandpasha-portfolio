@@ -21,11 +21,11 @@ function Contact() {
 
                     <div className="contact-options">
                         <div className="contact contact-options-email">
-                            <h1>Mail Me on below E-Mail ID</h1>
+                            <h2>Mail Me on below E-Mail ID</h2>
                             <a href="mailto:schandpasha38@gmail.com">schandpasha38@gmail.com</a>
                         </div>
                         <div className="contact contact-options-call">
-                            <h1>Call Me on Below Mobile Number</h1>
+                            <h2>Call Me on Below Mobile Number</h2>
                             <a href="tel:+919945034448">9945034448</a>
                         </div>
                     </div>
