@@ -12,7 +12,25 @@ function Contact() {
             </Helmet>
             <Header />
             <section className="contact-section">
-                <h1>This is Contact</h1>
+                <div className="contact-wrapper">
+
+                    <div className="contact-title-wrap">
+                        <h2 className="contact-head-title"><span className="underscore">Co</span>ntact</h2>
+                        <p className="discription">Are you a business looking for a new website or looking to hire? Feel free to email me or use the contact form below to get in touch. I would love to hear from you!</p>
+                    </div>
+
+                    <div className="contact-options">
+                        <div className="contact contact-options-email">
+                            <h1>Mail Me on below E-Mail ID</h1>
+                            <a href="mailto:schandpasha38@gmail.com">schandpasha38@gmail.com</a>
+                        </div>
+                        <div className="contact contact-options-call">
+                            <h1>Call Me on Below Mobile Number</h1>
+                            <a href="tel:+919945034448">9945034448</a>
+                        </div>
+                    </div>
+
+                </div>
             </section>
         </>
     );
