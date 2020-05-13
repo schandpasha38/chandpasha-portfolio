@@ -130,7 +130,7 @@ const PortfolioItems = () => {
                                 </ul>
                             </div>
                             <div className="portfolio-links">
-                                {portfolio.githubLink ? <a href={portfolio.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a> : ""}
+                                {portfolio.githubLink ? <a href={portfolio.githubLink} target="_blank" rel="noopener noreferrer">View GitHub</a> : ""}
                                 {portfolio.liveLink ? <a href={portfolio.liveLink} target="_blank" rel="noopener noreferrer">Live Demo</a> : ""}
                             </div>
                         </div>
