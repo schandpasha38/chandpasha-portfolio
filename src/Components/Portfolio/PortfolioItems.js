@@ -111,8 +111,8 @@ const PortfolioItems = () => {
             return (
                 <div className="portfolioItem" key={portfolio.id}>
 
-                    <div className="portfolio-imageContainer">
-                        <img src={portfolio.imglink} alt="" />
+                    <div className="portfolio-imageContainer" >
+                        <img loading="lazy" src={portfolio.imglink} alt="" />
                     </div>
 
                     <div className="portfolio-discription">

@@ -173,6 +173,11 @@
 
 .about-text-container .about-text-social .about-social li a img {
   width: 21px;
+  transition: transform .3s ease;
+}
+
+.about-text-container .about-text-social .about-social li a img:hover {
+  transform: scale(1.2);
 }
 
 .about-skills {

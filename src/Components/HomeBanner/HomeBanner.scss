@@ -115,6 +115,11 @@
 
 .homebanner-social li a img {
   width: 30px;
+  transition: transform .3s ease-in-out;
+}
+
+.homebanner-social li a img:hover {
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 991.98px) {
