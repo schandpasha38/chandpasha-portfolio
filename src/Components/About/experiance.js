@@ -6,7 +6,7 @@ const Workexperiance = () => {
         {
             id: 1,
             comName: "Ajio.com",
-            designation: "Scenior MIS Exicutive",
+            designation: "Senior MIS Executive",
             timeline: "Dec - 2016 to Nov - 2019",
             kra: [
                 "Helped In Creating Custom Javascript For Converting Json Data Into Required Format Like Html, Ms Excel Etc.",
