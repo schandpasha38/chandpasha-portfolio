@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Header.scss'
+import './Header.css'
 import ChandPic from './assets/ChandPic.jpg'
 import { Link, NavLink } from 'react-router-dom';
 

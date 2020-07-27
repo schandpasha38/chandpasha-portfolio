@@ -1,8 +1,8 @@
 import React from 'react';
-import './About.scss';
+import './About.css';
 import Header from '../Header/Header';
-import AboutChandPic from './assets/AboutChandPic.jpg';
 import { Helmet } from "react-helmet";
+import AboutChandPic from './assets/AboutChandPic.jpg';
 import * as UiTools from './assets/UITools/index';
 import SocialButtons from '../SocialButtons/SocialButtons';
 import Workexperiance from './Experiance';

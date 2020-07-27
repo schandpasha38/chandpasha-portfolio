@@ -8,7 +8,7 @@ function App() {
     <>
       <Helmet>
         <title>Chand Pasha | Front-End Developer in Bangalore</title>
-        <meta name="description" content="Web site created using create-react-app" />
+        <meta name="description" content="Chand pasha with total of 7 years experiance" />
       </Helmet>
       <Header />
       <HomeBanner />

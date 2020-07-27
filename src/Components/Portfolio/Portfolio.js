@@ -1,5 +1,5 @@
 import React from 'react';
-import './Portfolio.scss';
+import './Portfolio.css';
 import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
 import PortfolioItems from './PortfolioItems';

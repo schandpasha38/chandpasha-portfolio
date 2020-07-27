@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.scss';
+import './Contact.css';
 import { Helmet } from 'react-helmet';
 import Header from '../Header/Header'
 
@@ -8,7 +8,7 @@ function Contact() {
         <>
             <Helmet>
                 <title>Contact | Chand Pasha | Front-End Developer in Bangalore</title>
-                <meta name="description" content="Web site created using create-react-app" />
+                <meta name="description" content="contact chand pasha a front end developer in bangalore" />
             </Helmet>
             <Header />
             <section className="contact-section">

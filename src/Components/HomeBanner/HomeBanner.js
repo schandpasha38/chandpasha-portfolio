@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import './HomeBanner.scss';
+import './HomeBanner.css';
 import HeroChandPic from './assets/HeroChandPic.png';
 import SocialButtons from '../SocialButtons/SocialButtons';
 import { Link } from 'react-router-dom'
