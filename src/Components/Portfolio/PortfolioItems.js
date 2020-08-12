@@ -7,7 +7,7 @@ const PortfolioItems = () => {
         {
             id: 1,
             projectName: "Chand Portfolio",
-            discription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut eius error deleniti corrupti qui reprehenderit odit iusto aspernatur! Inventore voluptatibus cum eaque unde quis laborum incidunt tempora aliquid blanditiis?",
+            discription: "This is my portfolio website built using react.js. I built this website to showcase the projects I have created. I made this website to make sure that the people know about my skills and projects which I have worked upon and technologies I know.",
             techUsed: ["React", "React Router", "React Helmet"],
             githubLink: "https://github.com/schandpasha38/chandpasha-portfolio",
             liveLink: "",
