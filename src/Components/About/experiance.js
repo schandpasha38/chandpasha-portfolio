@@ -5,6 +5,18 @@ const Workexperiance = () => {
     const experiance = [
         {
             id: 1,
+            comName: "Landmark Group",
+            designation: "Front End Developer",
+            timeline: "Sep - 2020 to Present",
+            kra: [
+                "Maintaining, optimizing, troubleshooting, and improving websites",
+                "Collaborated with product team members to implement new feature developments",
+                "Implemented new google analytics events across site",
+                "Implemented new mobile number based login system from existing email based login",
+            ]
+        },
+        {
+            id: 1,
             comName: "Ajio.com",
             designation: "Senior MIS Executive",
             timeline: "Dec - 2016 to Nov - 2019",

@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import AboutChandPic from './assets/AboutChandPic.jpg';
 import * as UiTools from './assets/UITools/index';
 import SocialButtons from '../SocialButtons/SocialButtons';
-import Workexperiance from './Experiance';
+import Workexperiance from './experiance';
 import Education from './Education';
 import ChandResume from './assets/Resume/Chand Pasha.pdf'
 
